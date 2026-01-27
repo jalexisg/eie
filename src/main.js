@@ -97,8 +97,33 @@ function handleScroll(hash) {
   }
 }
 
+// Debugging: Catch global errors
+window.onerror = function (msg, url, line, col, error) {
+  document.body.innerHTML += `
+    <div style="color: red; padding: 20px; background: white; border: 2px solid red; margin: 20px;">
+      <h3>Error Detectado:</h3>
+      <p>${msg}</p>
+      <p>Line: ${line}, Column: ${col}</p>
+      <pre>${error?.stack || 'No stack trace'}</pre>
+    </div>
+  `;
+  return false;
+};
+
 // Listen for hash changes
-window.addEventListener('hashchange', render);
+window.addEventListener('hashchange', () => {
+  try {
+    render();
+  } catch (e) {
+    console.error(e);
+    document.body.innerHTML += `<div style="color:red">Render Error: ${e.message}</div>`;
+  }
+});
 
 // Initial render
-render();
+try {
+  render();
+} catch (e) {
+  console.error(e);
+  document.body.innerHTML += `<div style="color:red">Initial Render Error: ${e.message}</div>`;
+}
