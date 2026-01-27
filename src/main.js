@@ -1,5 +1,5 @@
 import './style.css'
-import { Header } from './components/Header.js'
+import { Header, setupHeader } from './components/Header.js'
 import { Hero } from './components/Hero.js'
 import { Services } from './components/Services.js'
 import { About } from './components/About.js'
@@ -18,3 +18,5 @@ document.querySelector('#app').innerHTML = `
   </main>
   ${Footer()}
 `
+
+setupHeader();
