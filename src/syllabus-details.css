@@ -1,0 +1,32 @@
+/* Syllabus Detail Lists */
+.syllabus-detail-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.syllabus-detail-list li {
+    padding: 0.5rem 0;
+    border-bottom: 1px dashed #e2e8f0;
+    color: var(--color-text-main);
+    font-size: 0.9rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.syllabus-detail-list li:last-child {
+    border-bottom: none;
+}
+
+.syllabus-detail-list li::before {
+    content: '•';
+    color: var(--color-accent);
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 1;
+    display: inline-block;
+    /* Ensure it renders properly */
+    min-width: 10px;
+    /* Give it some space */
+}

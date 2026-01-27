@@ -7,16 +7,16 @@ export function Header() {
         </a>
         <nav class="main-nav">
           <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#servicios">Asesoría</a></li>
-            <li><a href="#">Curso</a></li>
+            <li><a href="#/">Inicio</a></li>
+            <li><a href="#/asesoria">Asesoría</a></li>
+            <li><a href="#/curso">Curso</a></li>
             <li><a href="#">Libro</a></li>
             <li><a href="#">Blog</a></li>
           </ul>
         </nav>
         <div class="header-actions">
           <div class="header-cta desktop-only">
-            <a href="#contacto" class="btn btn-sm btn-primary">Reservar Cita</a>
+            <a href="#/contacto" class="btn btn-sm btn-primary">Reservar Cita</a>
           </div>
           <button class="menu-toggle" aria-label="Abrir menú">
             <span class="bar"></span>

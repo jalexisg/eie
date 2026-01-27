@@ -13,8 +13,8 @@ export function Hero() {
             Te ayudamos a tomar las mejores decisiones para proteger y hacer crecer tu dinero.
           </p>
           <div class="hero-actions">
-            <a href="#contacto" class="btn btn-lg btn-primary">Solicitar Estudio Gratuito</a>
-            <a href="#curso" class="btn btn-lg btn-outline">Ver Formación</a>
+            <a href="#/contacto" class="btn btn-lg btn-primary">Solicitar Estudio Gratuito</a>
+            <a href="#/curso" class="btn btn-lg btn-outline">Ver Formación</a>
           </div>
           <div class="hero-stats">
             <div class="stat-item">
