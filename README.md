@@ -1,5 +1,9 @@
-# El Inversor Eficiente - Modern Website
+# El Inversor Eficiente (Redesign)
 
+> **Agent Friendly Project**: This project follows the [AGENTS.md](AGENTS.md) standard. See `skills/` for developer guides.
+
+This is a redesign of the *El Inversor Eficiente* landing page using **Vanilla JavaScript** and **Vite**.
+The goal is to have a fast, lightweight, and maintainable codebase without the overhead of heavy frameworks like React.
 Repositorio oficial para el rediseño moderno del sitio web [elinversoreficiente.com](https://elinversoreficiente.com/).
 
 Este proyecto migra la web antigua (WordPress) a un stack de **alto rendimiento** y diseño personalizado, enfocado en la **Asesoría Financiera Independiente**.
