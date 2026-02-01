@@ -1,5 +1,7 @@
 # El Inversor Eficiente (Redesign)
 
+![Deploy to GitHub Pages](https://github.com/jalexisg/eie/actions/workflows/deploy.yml/badge.svg)
+
 > **Agent Friendly Project**: This project follows the [AGENTS.md](AGENTS.md) standard. See `skills/` for developer guides.
 
 This is a redesign of the *El Inversor Eficiente* landing page using **Vanilla JavaScript** and **Vite**.
