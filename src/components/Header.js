@@ -10,8 +10,8 @@ export function Header() {
             <li><a href="#/">Inicio</a></li>
             <li><a href="#/asesoria">Asesoría</a></li>
             <li><a href="#/curso">Curso</a></li>
-            <li><a href="#">Libro</a></li>
-            <li><a href="#">Blog</a></li>
+            <li><a href="#/blog">Blog</a></li>
+            <li><a href="#/contacto">Contacto</a></li>
           </ul>
         </nav>
         <div class="header-actions">

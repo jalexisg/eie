@@ -28,8 +28,7 @@ export function Hero() {
           </div>
         </div>
         <div class="hero-image">
-          <!-- Placeholder using a CSS shape or gradient for now -->
-          <div class="visual-abstract"></div>
+           <img src="assets/images/hero-abstract.png" alt="Planificación Financiera Estratégica" class="hero-main-image">
         </div>
       </div>
     </section>

@@ -1,13 +1,16 @@
 export function Contact() {
-    return `
+  return `
     <section id="contacto" class="contact-section">
       <div class="container contact-container">
-        <div class="contact-header">
-          <h2 class="section-title">Hablemos de tu Futuro</h2>
-          <p class="section-subtitle">
-            Solicita tu estudio gratuito sin compromiso. Analizaremos tu situación y te propondremos la mejor estrategia.
-          </p>
-        </div>
+         <div class="contact-header">
+           <h2 class="section-title">Hablemos de tu Futuro</h2>
+           <p class="section-subtitle">
+             Solicita tu estudio gratuito sin compromiso. Analizaremos tu situación y te propondremos la mejor estrategia.
+           </p>
+           <div class="contact-image-container">
+             <img src="assets/images/contact-consult.png" alt="Consulta Financiera Personalizada" class="contact-image">
+           </div>
+         </div>
         
         <form class="contact-form" onsubmit="event.preventDefault(); alert('Gracias. En una implementación real, esto enviaría los datos a tu CRM.');">
           <div class="form-group">

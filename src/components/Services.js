@@ -1,6 +1,6 @@
 export function Services() {
-    return `
-    <section id="servicios" class="services-section">
+  return `
+    <section id="servicios" class="services-section with-bg">
       <div class="container">
         <div class="section-header">
           <span class="badge">Nuestros Servicios</span>

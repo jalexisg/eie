@@ -7,6 +7,7 @@ import { CourseTeaser } from './components/CourseTeaser.js'
 import { Contact } from './components/Contact.js'
 import { Footer } from './components/Footer.js'
 import { CoursePage } from './components/CoursePage.js'
+import { BlogPage } from './components/BlogPage.js'
 
 function Home() {
   return `
@@ -30,7 +31,11 @@ function render() {
   // Determine target page based on hash
   // Routes: #/curso -> CoursePage, anything else -> Home
   const isCoursePage = hash.startsWith('#/curso');
-  const targetPage = isCoursePage ? 'course' : 'home';
+  const isBlogPage = hash.startsWith('#/blog');
+
+  let targetPage = 'home';
+  if (isCoursePage) targetPage = 'course';
+  else if (isBlogPage) targetPage = 'blog';
 
   // Only re-render if the page structure changes
   if (currentPage !== targetPage) {
@@ -41,6 +46,12 @@ function render() {
       content = `
         <main>
           ${CoursePage()}
+        </main>
+      `;
+    } else if (targetPage === 'blog') {
+      content = `
+        <main>
+          ${BlogPage()}
         </main>
       `;
     } else {

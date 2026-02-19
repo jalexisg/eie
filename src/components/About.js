@@ -1,12 +1,9 @@
 export function About() {
-    return `
+  return `
     <section class="about-section">
       <div class="container about-container">
         <div class="about-image">
-           <!-- Placeholder for Advisor Photo -->
-           <div class="image-placeholder">
-             <span>Foto Asesor</span>
-           </div>
+           <img src="assets/images/advisor.png" alt="Asesor Financiero - El Inversor Eficiente" class="advisor-photo">
         </div>
         <div class="about-content">
           <span class="badge">Sobre Nosotros</span>
