@@ -293,7 +293,7 @@ ul {
 }
 
 .services-section.with-bg {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('assets/images/services-bg.png');
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('/assets/images/services-bg.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -782,7 +782,7 @@ ul {
 /* Course Page Styles */
 .course-hero {
     background-color: var(--color-primary);
-    background-image: linear-gradient(rgba(0, 33, 102, 0.8), rgba(0, 33, 102, 0.8)), url('assets/images/teaser-bg.png');
+    background-image: linear-gradient(rgba(0, 33, 102, 0.8), rgba(0, 33, 102, 0.8)), url('/assets/images/teaser-bg.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
