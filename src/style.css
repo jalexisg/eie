@@ -782,7 +782,7 @@ ul {
 /* Course Page Styles */
 .course-hero {
     background-color: var(--color-primary);
-    background-image: linear-gradient(rgba(0, 33, 102, 0.8), rgba(0, 33, 102, 0.8)), url('/assets/images/teaser-bg.png');
+    background-image: linear-gradient(rgba(0, 33, 102, 0.5), rgba(0, 33, 102, 0.5)), url('/assets/images/teaser-bg.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
