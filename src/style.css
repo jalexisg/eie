@@ -1078,17 +1078,30 @@ ul {
         grid-template-columns: 1fr;
     }
 }
+
 /* Blog Page Styles */
 .blog-hero {
-    background-color: var(--color-surface);
-    padding: 8rem 0 4rem;
+    background-color: var(--color-primary);
+    background-image: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.85)), url('/assets/images/hero-abstract.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: var(--color-white);
+    padding: 10rem 0 6rem;
     text-align: center;
 }
 
 .blog-hero h1 {
-    font-size: 3rem;
-    color: var(--color-header);
+    font-size: 3.5rem;
+    color: var(--color-white);
     margin-bottom: 1rem;
+}
+
+.blog-hero p.lead {
+    color: #cbd5e1;
+    font-size: 1.25rem;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .blog-content {
@@ -1116,7 +1129,8 @@ ul {
 
 .video-container {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
+    padding-bottom: 56.25%;
+    /* 16:9 */
     height: 0;
     overflow: hidden;
 }
@@ -1159,7 +1173,7 @@ ul {
     .blog-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .blog-hero h1 {
         font-size: 2.25rem;
     }
